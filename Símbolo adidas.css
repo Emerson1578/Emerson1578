@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open Sans' sans-serif;
+}
+
+body{
+    width: 120vh;
+    height: 120vh;
+    background-image: url(https://scontent.fpoa43-1.fna.fbcdn.net/v/t39.30808-6/338574486_250372034083482_2124175152990131083_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHhXPSkcP8nWg4nzgKKdCn1S4g_8U_t2npLiD_xT-3aeiBme5q7n268_hcv9eSGlY31w5SwDLreWXnc7v7xyXFp&_nc_ohc=PmRx1fOb8T4AX8YPT_3&_nc_ht=scontent.fpoa43-1.fna&oh=00_AfDNIOFX12msF_LOXx1NT_dUKGHv8fvSr2GHasjLrw9VaA&oe=642FD95B);
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+.barbearia{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barbearia .logo a{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+
+.barbearia .links{
+    display: flex;
+    gap: 4rem;
+    font-size: 2.5rem;
+}
+
+a{
+    color: rgb(252, 12, 12);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
